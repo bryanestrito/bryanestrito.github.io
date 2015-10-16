@@ -8,7 +8,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper .container .row {
+.row1 {
     padding-bottom: 40px;
     border-bottom: 1px solid #999;
 }
@@ -27,9 +27,29 @@ html, body {
     text-align: center;
 }
 
+.portfolio-category img {
+    border-radius: 50%;
+    text-align: center;
+}
+
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px) {
+    .row1 {
+        padding-bottom: 20px;
+    }
 
+    .portfolio-image {
+        border-right: 0px;
+    }
+
+    .portfolio-category {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .portfolio-category img {
+        width: 50px;
+    }
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
