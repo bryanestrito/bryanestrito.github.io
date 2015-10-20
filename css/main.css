@@ -62,7 +62,7 @@ html, body {
         padding-top: 40px;
     }
 
-    .portfolio-menus {
+    /*.portfolio-menus {
         width: 100%;
         border-right: 1px solid #999;
         padding-left: 30px;
@@ -75,11 +75,11 @@ html, body {
     .portfolio-menu img {
         border-radius: 50%;
         margin-right: 15px;
-    }
+    }*/
 
-    .portfolio-portfolio {
+    /*.portfolio-portfolio {
         width: 100%;
-    }
+    }*/
 }
 
 /* big landscape tablets, laptops, and desktops */
