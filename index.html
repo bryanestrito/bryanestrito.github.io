@@ -58,53 +58,75 @@
             <!-- <hr> -->
             <div class="row row2">
                 <div class="col-md-3 col-sm-12 col-xs-12">
-                    <ul role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#tab1" id="nav1" aria-controls="tab1" role="tab" data-toggle="tab">
-                                <img src="http://placehold.it/100x100">
-                                <span>Portfolio</span>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab2" id="nav2" aria-controls="tab2" role="tab" data-toggle="tab">
-                                <img src="http://placehold.it/100x100">
-                                <span>Skills</span>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab3" id="nav3" aria-controls="tab3" role="tab" data-toggle="tab">
-                                <img src="http://placehold.it/100x100">
-                                <span>Experience</span>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab4" id="nav4" aria-controls="tab4" role="tab" data-toggle="tab">
-                                <img src="http://placehold.it/100x100">
-                                <span>Blog</span>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#tab5" id="nav5" aria-controls="tab5" role="tab" data-toggle="tab">
-                                <img src="http://placehold.it/100x100">
-                                <span>Contact</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="tab-list">
+                        <ul role="tablist">
+                            <li role="presentation" class="active tabs">
+                                <a data-target="#panel1" id="tab1" aria-controls="panel1" role="tab" data-toggle="tab">
+                                    <img src="http://placehold.it/100x100">
+                                    <span>Portfolio</span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="tabs">
+                                <a data-target="#panel2" id="tab2" aria-controls="panel2" role="tab" data-toggle="tab">
+                                    <img src="http://placehold.it/100x100">
+                                    <span>Skills</span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="tabs">
+                                <a data-target="#panel3" id="tab3" aria-controls="panel3" role="tab" data-toggle="tab">
+                                    <img src="http://placehold.it/100x100">
+                                    <span>Experience</span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="tabs">
+                                <a data-target="#panel4" id="tab4" aria-controls="panel4" role="tab" data-toggle="tab">
+                                    <img src="http://placehold.it/100x100">
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="tabs">
+                                <a data-target="#panel5" id="tab5" aria-controls="panel5" role="tab" data-toggle="tab">
+                                    <img src="http://placehold.it/100x100">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-9 col-sm-12 col-xs-12">
                     <div class="tab-content">
-                        <div id="tab1" role="tabpanel" class="tab-pane fade in active">
-                            <h3>Portfolio</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                            <ul>
-                               <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-                               <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-                               <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-                               <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-                            </ul>
+                        <div id="panel1" role="tabpanel" class="tab-pane fade in active panels">
+                            <div id="portfolio">
+                                <h3>Portfolio</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vtiae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                <ul>
+                                   <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+                                   <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+                                   <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+                                   <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div id="tab2" role="tabpanel" class="tab-pane fade">
-                            <canvas id="chart"></canvas>
+                        <div id="panel2" role="tabpanel" class="tab-pane fade panels">
+                            <div id="skills">
+                                <h1>Skills</h1>
+                                <canvas id="chart"></canvas>
+                            </div>
+                        </div>
+                        <div id="panel3" role="tabpanel" class="tab-pane fade panels">
+                            <div id="experience">
+                                <h1>Experience</h1>
+                            </div>
+                        </div>
+                        <div id="panel4" role="tabpanel" class="tab-pane fade panels">
+                            <div id="blog">
+                                <h1>Blog</h1>
+                            </div>
+                        </div>
+                        <div id="panel5" role="tabpanel" class="tab-pane fade panels">
+                            <div id="contact">
+                                <h1>Contact</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

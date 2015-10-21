@@ -8,17 +8,25 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.portfolio-image img, .tabs a img {
+    border-radius: 50%;
+}
+
+.tab-list ul {
+    list-style-type: none;
+}
+
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px) {
     /*.row1 {
         padding-bottom: 0px;
-    }
+    }*/
 
-    .portfolio-image {
+    /*.portfolio-image {
         border-right: 0px;
-    }
+    }*/
 
-    .portfolio-category {
+    /*.portfolio-category {
         display: inline-block;
     }
 
@@ -50,16 +58,26 @@ html, body {
         border-right: 1px solid #999;
     }
 
-    .portfolio-image img {
-        border-radius: 50%;
-    }
-
     .portfolio-info {
         text-align: center;
     }
 
     .row2 {
         padding-top: 40px;
+    }
+
+    .tab-list {
+        width: 100%;
+        border-right: 1px solid #999;
+        text-align: center;
+    }
+
+    .tab-list ul {
+        padding: 0px;
+    }
+
+    .tabs {
+        margin-bottom: 20px;
     }
 
     /*.portfolio-menus {
