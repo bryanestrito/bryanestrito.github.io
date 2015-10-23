@@ -13,6 +13,12 @@ html, body {
     border-radius: 50%;
 }
 
+.portfolio-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
 .tab-list ul {
     list-style-type: none;
 }
@@ -26,16 +32,45 @@ html, body {
 }
 
 .tabs a img {
-    height: 100px;
-    width: 100px;
-}
-
-.tabs a img {
     margin: 0 auto;
 }
 
 .tabs a span {
     text-align: center;
+}
+
+.social-facebook {
+    background: url('../img/socialflaticons.png') no-repeat -389px 0;
+    width: 52px;
+    height: 52px;
+}
+
+.social-gplus {
+    background: url('../img/socialflaticons.png') no-repeat -99px 0;
+    width: 52px;
+    height: 52px;
+}
+
+.social-twitter {
+    background: url('../img/socialflaticons.png') no-repeat -317px 0;
+    width: 52px;
+    height: 52px;
+}
+
+.social-instagram {
+    background: url('../img/socialflaticons.png') no-repeat -390px -68px;
+    width: 52px;
+    height: 52px;
+}
+
+.social-pinterest {
+    background: url('../img/socialflaticons.png') no-repeat -27px 0;
+    width: 52px;
+    height: 52px;
+}
+
+.social-icons div {
+    display: inline-block;
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */
@@ -99,6 +134,11 @@ html, body {
 
     .tabs {
         margin-bottom: 20px;
+    }
+
+    .tabs a img {
+        height: 100px;
+        width: 100px;
     }
 
     /*.portfolio-menus {
